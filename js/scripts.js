@@ -1,6 +1,10 @@
 // everything below this line is business or back-end logic
 var leapYear = function(year) {
+  if (year % 4 === 0) {
+    return true;
+  } else {
   return false;
+  }
 };
 
 // everything below this line is front-end logic
